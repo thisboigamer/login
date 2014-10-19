@@ -25,7 +25,9 @@
     </li>
     <li>
     <!---Thinking that new users may still use this form to sign up, will redirect them to a sign-in form is no registered username or email is in registry-->
+      <div class="register">
       <input type="submit" id="submit" value="Login" />
+      </div>
     </li>
   </ul>
   </form>
@@ -46,16 +48,45 @@
     </li>
     <li>
       <label for="email">E-Mail</label>
-      <input type="text" name="email" id="email" />
+      <input type="email" name="email" id="email" />
+    </li>
+    <li>
+      <label for="gender">Gender Identity</label>
+      <select>
+        <option>Unspecified</option>
+        <option>Female</option>
+        <option>Male</option>
+        <option>Gender Fluid</option>
+        <option>Agender</option>
+        <option>Genderqueer</option>
+        <option>Neutral</option>
+        <option>Other</option>
+      </select>
     </li>
     <li>
       <label for="birthday">Birthday</label>
-      <input type="tel" name="birthday" id="birthday" />
-      <input type="text" name="month" id="month" />
-      <input type="tel" max= 4 name="year" id="year" />
+      <select>
+        <option>Month</option>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+      <input type="tel" maxlength=2 name="day" id="day" />
+      <input type="tel" maxlength=4 name="year" id="year" />
     </li>
     <li>
+      <div class="register">
       <input type="submit" id="submit" value="Register" />
+      </div>
     </li>
   </ul>
   </form>
