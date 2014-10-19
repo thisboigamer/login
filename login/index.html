@@ -3,12 +3,15 @@
 <head>
   <title>LiveJournal: Discover global communities of friends who share your unique passions and interests</title>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="screen.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="modernizr.custom.09417.js"> </script>
 </head>
 <body>
   <header>
     <h1>LiveJournal</h1>
   </header>
+  <div class="login">
   <h2>Log In</h2>
   <form action="#null">
   <ul>
@@ -21,11 +24,42 @@
       <input type="text" name="password" id="password" />
     </li>
     <li>
-    <!---Thinking that new users may still use this form to sign up, will redirect them to a sign-in form is no registered username or email is in registry--->
-      <input type="submit" id="submit" value="Login or Sign Up" />
+    <!---Thinking that new users may still use this form to sign up, will redirect them to a sign-in form is no registered username or email is in registry-->
+      <input type="submit" id="submit" value="Login" />
     </li>
   </ul>
   </form>
+  </div>
+
+
+  <div class= "signup">
+  <h2>Sign Up</h2>
+  <form action="#null">
+  <ul>
+    <li>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" />
+    </li>
+    <li>
+      <label for="password">Password</label>
+      <input type="text" max=2 name="password" id="password" />
+    </li>
+    <li>
+      <label for="email">E-Mail</label>
+      <input type="text" name="email" id="email" />
+    </li>
+    <li>
+      <label for="birthday">Birthday</label>
+      <input type="tel" name="birthday" id="birthday" />
+      <input type="text" name="month" id="month" />
+      <input type="tel" max= 4 name="year" id="year" />
+    </li>
+    <li>
+      <input type="submit" id="submit" value="Register" />
+    </li>
+  </ul>
+  </form>
+  </div>
 
 </body>
 </html>
