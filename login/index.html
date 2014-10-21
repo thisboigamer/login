@@ -10,6 +10,10 @@
 <body>
   <header>
     <h1>LiveJournal</h1>
+    <ul id="navigation">
+      <li><a href="http://www.livejournal.com/browse/">Communities</a></li>
+      <li><a href="http://www.livejournal.com/shop/">Shop</a></li>
+    </ul>
   </header>
   <div class="login">
   <h2>Log In</h2>
@@ -21,7 +25,7 @@
     </li>
     <li>
       <label for="password">Password</label>
-      <input type="text" name="password" id="password" />
+      <input type="password" name="password" id="password" />
     </li>
     <li>
     <!---Thinking that new users may still use this form to sign up, will redirect them to a sign-in form is no registered username or email is in registry-->
@@ -44,7 +48,7 @@
     </li>
     <li>
       <label for="password">Password</label>
-      <input type="text" name="password" id="password" />
+      <input type="password" name="password" id="password" />
     </li>
     <li>
       <label for="email">E-Mail</label>
@@ -82,8 +86,8 @@
         <option>November</option>
         <option>December</option>
       </select>
-      <input type="tel" maxlength=2 name="day" id="birthday" />
-      <input type="tel" maxlength=4 name="year" id="birthdayyear" />
+      <input type="tel" maxlength=2 name="day" size=2 id="birthday" />
+      <input type="tel" maxlength=4 name="year" size=4 id="birthdayyear" />
     </li>
     <li>
       <div class="adult">
@@ -99,6 +103,7 @@
   </ul>
   </form>
   </div>
+
 
 </body>
 </html>
