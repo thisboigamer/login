@@ -28,10 +28,7 @@
       <input type="password" name="password" id="password" />
     </li>
     <li>
-    <!---Thinking that new users may still use this form to sign up, will redirect them to a sign-in form is no registered username or email is in registry-->
-      <div class="register">
       <button type="submit">Login</button>
-      </div>
     </li>
   </ul>
   </form>
@@ -43,18 +40,19 @@
   <form action="#null" id="signup" method="post">
   <ul>
     <li>
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username" />
+      <label for="newusername">Username</label>
+      <input type="text" name="newusername" id="newusername" />
     </li>
     <li>
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
+      <label for="newpassword">Password</label>
+      <input type="password" name="newpassword" id="newpassword" />
     </li>
     <li>
       <label for="email">E-Mail</label>
       <input type="email" name="email" id="email" />
     </li>
-    <!---Actually rethinking the need to include a category for gender in this form. I don't see how it adds or subtracts from the user experience and think it actually complicates.
+
+<!---Actually rethinking the need to include a category for gender in this form. I don't see how it adds or subtracts from the user experience and think it actually complicates.
     <li>
       <label for="gender">Gender Identity</label>
       <select>
@@ -69,23 +67,26 @@
       </select>
     </li>
     -->
+
     <li>
       <label for="birthday">Birthday</label>
+    <!--This creates the dropdown menu for months-->
       <select>
-        <option>Month</option>
-        <option>January</option>
-        <option>February</option>
-        <option>March</option>
-        <option>April</option>
-        <option>May</option>
-        <option>June</option>
-        <option>July</option>
-        <option>August</option>
-        <option>September</option>
-        <option>October</option>
-        <option>November</option>
-        <option>December</option>
+        <option id="#null">Month</option>
+        <option id="01">January</option>
+        <option id="02">February</option>
+        <option id="03">March</option>
+        <option id="04">April</option>
+        <option id="05">May</option>
+        <option id="06">June</option>
+        <option id="07">July</option>
+        <option id="08">August</option>
+        <option id="09">September</option>
+        <option id="10">October</option>
+        <option id="11">November</option>
+        <option id="12">December</option>
       </select>
+    <!--Size tells how big to display the box if CSS does not specify anything else-->
       <input type="tel" maxlength=2 name="day" size=2 id="birthday" />
       <input type="tel" maxlength=4 name="year" size=4 id="birthdayyear" />
     </li>
@@ -96,9 +97,7 @@
       </div>
     </li>
     <li>
-      <div class="register">
       <button type="submit">Register</button>
-      </div>
     </li>
   </ul>
   </form>

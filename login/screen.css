@@ -30,11 +30,11 @@ h1 {
   text-transform: uppercase;
   font-weight: ;
 	font-size: 2.618em;
-	font-family: "Arial Narrow", Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 	line-height: 1.618em;
 	color: white;
   background-color: #66CCFF;
-  margin-bottom: .49em;
+  margin-bottom: em;
   margin-left: .49em
 }
 
@@ -114,8 +114,9 @@ input:focus {
 
 button {
   margin: .5em;
+  margin-left: 7.618em;
   line-height: ;
-  font-size: .812em;
+  font-size: 1.314em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #3366FF;
   color: #66CCFF;
@@ -158,12 +159,7 @@ option {
   color: #E0E0E0;
 }
 
-.register {
-  margin-left: 5em;
-  color: blue;
-  line-height: ;
-  font-size: 1.957em;
-}
+
 
 .adult label {
   width: 15em;
