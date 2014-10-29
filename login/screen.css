@@ -76,14 +76,12 @@ h2{
 form {
   /*margin-left: 2em;*/
   background-color: #66CCFF;
+  min-width: 60%;
+  max-width: 150%;
 
 }
 
-ul{
-}
 
-li{
-}
 
 label {
   display: inline-block;
@@ -136,17 +134,41 @@ select {
   font-weight:;
   font-size: .918em;
   color: black;
+  max-width: 30%;
+  height: auto;
+  box-sizing: border-box;
+
+  border: .1em solid #999;
 }
 
 option {
-  max-width: 30%;
   line-height:;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:;
   font-size: .918em;
   color: black;
+  height: auto;
 }
 
+.register {
+  display: inline;
+  width: ;
+  text-transform: lowercase;
+  line-height:;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:;
+  margin-left: 2.618em;
+  color: #E0E0E0;
+}
+
+
+
+.register label {
+  width: 15em;
+  margin: 0em;
+  font-weight: bold;
+  color: #;
+}
 
 .adult {
   display: inline;
@@ -169,15 +191,15 @@ option {
   color: #990000;
 }
 
+input #checkbox {
+ box-sizing: border-box;
+  border: .1em solid #999;
+}
+
 .login {
   margin-top: 2em;
   float: left;
   margin-left: 4em;
+  min-width: 40%;
+  max-width: 150%
 }
-
-.signup {
-  margin-top: 2em;
-  margin-left: 4em;
-  float: left;
-}
-

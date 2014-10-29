@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>LiveJournal: Discover global communities of friends who share your unique passions and interests</title>
+  <title>
+    LiveJournal: Discover global communities of friends who share your unique passions and interests
+  </title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="screen.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,96 +13,68 @@
   <header>
     <h1>LiveJournal</h1>
     <ul id="navigation">
-      <li><a href="http://www.livejournal.com/browse/">Communities</a></li>
-      <li><a href="http://www.livejournal.com/shop/">Shop</a></li>
+      <li>
+        <a href="http://www.livejournal.com/browse/">Communities</a>
+      </li>
+      <li>
+        <a href="http://www.livejournal.com/shop/">Shop</a>
+      </li>
     </ul>
   </header>
   <div class="login">
-  <h2>Log In</h2>
-  <form action="#null" id="Login" method="get">
-  <ul>
-    <li>
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username" />
-    </li>
-    <li>
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
-    </li>
-    <li>
-      <button type="submit">Login</button>
-    </li>
-  </ul>
-  </form>
-  </div>
-
-
-  <div class= "signup">
-  <h2>Sign Up</h2>
-  <form action="#null" id="signup" method="post">
-  <ul>
-    <li>
-      <label for="newusername">Username</label>
-      <input type="text" name="newusername" id="newusername" />
-    </li>
-    <li>
-      <label for="newpassword">Password</label>
-      <input type="password" name="newpassword" id="newpassword" />
-    </li>
-    <li>
-      <label for="email">E-Mail</label>
-      <input type="email" name="email" id="email" />
-    </li>
-
-<!---Actually rethinking the need to include a category for gender in this form. I don't see how it adds or subtracts from the user experience and think it actually complicates.
-    <li>
-      <label for="gender">Gender Identity</label>
-      <select>
-        <option>Unspecified</option>
-        <option>Female</option>
-        <option>Male</option>
-        <option>Gender Fluid</option>
-        <option>Agender</option>
-        <option>Genderqueer</option>
-        <option>Neutral</option>
-        <option>Other</option>
-      </select>
-    </li>
-    -->
-
-    <li>
-      <label for="birthday">Birthday</label>
-    <!--This creates the dropdown menu for months-->
-      <select>
-        <option id="#null">Month</option>
-        <option id="01">January</option>
-        <option id="02">February</option>
-        <option id="03">March</option>
-        <option id="04">April</option>
-        <option id="05">May</option>
-        <option id="06">June</option>
-        <option id="07">July</option>
-        <option id="08">August</option>
-        <option id="09">September</option>
-        <option id="10">October</option>
-        <option id="11">November</option>
-        <option id="12">December</option>
-      </select>
-    <!--Size tells how big to display the box if CSS does not specify anything else-->
-      <input type="tel" maxlength=2 name="day" size=2 id="birthday" />
-      <input type="tel" maxlength=4 name="year" size=4 id="birthdayyear" />
-    </li>
-    <li>
-      <div class="adult">
-        <label for="adult">This blog contains adult content</label>
-        <input type="checkbox" name="adult" id="adult" />
-      </div>
-    </li>
-    <li>
-      <button type="submit">Register</button>
-    </li>
-  </ul>
-  </form>
+    <h2>Log In or Register</h2>
+      <form action="#null" id="Login" method="get">
+        <ul>
+          <li>
+            <div class="register">
+              <label for="register">I am a new user</label>
+              <input type="checkbox" name="register" id="register" />
+            </div>
+          </li>
+          <li>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" autofocus />
+          </li>
+          <li>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </li>
+          <li>
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" />
+          </li>
+          <li>
+            <label for="birthday">Birthday</label>
+      <!--This creates the dropdown menu for months-->
+            <select>
+              <option id="#null">Month</option>
+              <option id="01">January</option>
+              <option id="02">February</option>
+              <option id="03">March</option>
+              <option id="04">April</option>
+              <option id="05">May</option>
+              <option id="06">June</option>
+              <option id="07">July</option>
+              <option id="08">August</option>
+              <option id="09">September</option>
+              <option id="10">October</option>
+              <option id="11">November</option>
+              <option id="12">December</option>
+            </select>
+            <input type="tel" maxlength=2 name="day" size=2 id="birthday" />
+            <input type="tel" maxlength=4 name="year" size=4 id="birthdayyear" />
+          </li>
+          <li>
+            <div class="adult">
+              <label for="adult">This blog contains adult content</label>
+              <input type="checkbox" name="adult" id="adult" />
+            </div>
+          </li>
+          <li>
+            <button type="submit">Register</button>
+          </li>
+        </ul>
+    </form>
   </div>
 
 
