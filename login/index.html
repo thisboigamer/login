@@ -12,6 +12,7 @@
 <body>
   <header>
     <h1>LiveJournal</h1>
+    <!--This creates the header navigation bar, links go to actual LJ site-->
     <ul id="navigation">
       <li>
         <a href="http://www.livejournal.com/browse/">Communities</a>
@@ -21,6 +22,8 @@
       </li>
     </ul>
   </header>
+
+  <!--This is the form-->
   <div class="login">
     <h2>Log In or Register</h2>
       <form action="#null" id="Login" method="get">
@@ -31,6 +34,7 @@
               <input type="checkbox" name="register" id="register" />
             </div>
           </li>
+          <!--Autofocused to this section when page is loaded-->
           <li>
             <label for="username">Username</label>
             <input type="text" name="username" id="username" autofocus />
