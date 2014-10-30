@@ -34,13 +34,14 @@ body{
 h1 {
   text-transform: uppercase;
   font-weight: ;
-	font-size: 2.618em;
-	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-	line-height: 1.618em;
-	color: white;
+  font-size: 2.618em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  line-height: 1.618em;
+  color: white;
   background-color: #66CCFF;
   margin-bottom: em;
-  margin-left: .49em
+  margin-left: .49em;
+
 }
 
 
@@ -63,27 +64,30 @@ header ul li a{
   font-size: 1.318em;
   font-weight: bold;
   color: white;
+  display: block;
 
 }
 
 
 h2{
+  display: inline;
   font-size: 1.957em;
-  line-height: .056em;
-  margin-bottom: .89em;
+  line-height: .8em;
+  margin-bottom: 1em;
   margin-top: .69em;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-weight: bold;
   background-color:;
   color:;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 form {
   /*margin-left: 2em;*/
   background-color: #66CCFF;
-  min-width: 60%;
-  max-width: 150%;
-
+  margin-top: 1em;
+  
 }
 
 
@@ -96,6 +100,7 @@ label {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:;
   margin-left: 2.618em;
+  margin-top: .5em;
   color: #E0E0E0;
 
 }
@@ -182,6 +187,7 @@ option {
   line-height:;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:;
+  margin-top: 1em;
   margin-left: 2.618em;
   color: #E0E0E0;
 }
@@ -208,3 +214,8 @@ input #checkbox {
   min-width: 40%;
   max-width: 150%
 }
+
+/*Media Querie */
+@media screen and (min-width: 500px){
+  
+  }
