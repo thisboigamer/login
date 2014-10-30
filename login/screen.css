@@ -21,6 +21,8 @@ html {
   text-size-adjust: 100%;
   }
 
+
+
 html {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -59,7 +61,7 @@ header ul {
 }
 
 header ul li {
-  display: inline;
+  display: inline-block;
   background-color: #66CCFF;
   padding: 0em .918em;
   margin-bottom: .618em;
@@ -77,7 +79,7 @@ header ul li a{
 
 
 h2{
-  display: inline;
+  display:;
   font-size: 1.957em;
   line-height: .8em;
   margin-bottom: 1em;
@@ -219,15 +221,19 @@ option {
 }
 
 /*Media Querie */
-@media screen and (min-width: 500px;) {
+@media screen and (min-width: 48em) {
   h2 {
+    min-width: 40%;
+
+  }
+  header ul {
+    min-width: 45em;
     margin-left: 0em;
-    min-width: 15em;
-    max-width: ;
   }
   .login {
-  margin-left: 0em;
-  min-width: 50em;
-  max-width: 150em;
+    margin-left: 0em;
+    min-width: 40em;
+
   }
+
   }
