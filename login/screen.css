@@ -15,6 +15,13 @@ Modular Scale:
 */
 
 html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  }
+
+html {
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -79,15 +86,13 @@ h2{
   font-weight: bold;
   background-color:;
   color:;
-  min-width: 300px;
-  max-width: 500px;
 }
 
 form {
   /*margin-left: 2em;*/
   background-color: #66CCFF;
   margin-top: 1em;
-  
+
 }
 
 
@@ -202,8 +207,8 @@ option {
   color: #990000;
 }
 
-input #checkbox {
- box-sizing: border-box;
+.adult input {
+  box-sizing: border-box;
   border: .1em solid #999;
 }
 
@@ -211,11 +216,18 @@ input #checkbox {
   margin-top: 2em;
   float: left;
   margin-left: 4em;
-  min-width: 40%;
-  max-width: 150%
 }
 
 /*Media Querie */
-@media screen and (min-width: 500px){
-  
+@media screen and (min-width: 500px;) {
+  h2 {
+    margin-left: 0em;
+    min-width: 15em;
+    max-width: ;
+  }
+  .login {
+  margin-left: 0em;
+  min-width: 50em;
+  max-width: 150em;
+  }
   }
