@@ -221,9 +221,10 @@ option {
   margin-left: 4.2223em;
 }
 
+
+/*Media Querie*/
+
 @media screen and (max-width: 42em) {
-
-
 
 	header navigation li {
 		min-width: auto;
@@ -237,9 +238,6 @@ option {
 	header h1 {
 		margin: 0 0 1em 0;
 	}
-
-
-
 
 	.login {
 		margin: 1.613em 1.613em 2.61em 0;
