@@ -39,18 +39,24 @@ header {
 }
 
 body{
+
+  background-image: url('paper.jpg');
+  background-size: contain;
   background-color: #FFFFCC;
 }
 
+/*Background image taked from:
+
+*/
+
 h1 {
   text-transform: uppercase;
-  font-weight: ;
+  font-weight: bold;
   font-size: 2.618em;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   line-height: 1.618em;
   color: white;
   background-color: #66CCFF;
-  margin-bottom: em;
   margin-left: .382em;
 
 }
@@ -82,13 +88,12 @@ header ul li a{
 
 h2{
   font-size: 1.618em;
-  line-height: .997em;
+  line-height: 1.618em;
   margin-bottom: 1em;
-  margin-top: .618em;
+  margin-left: 1.618em;
+  margin-top: 2.618em;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-weight: bold;
-  background-color:;
-  color:;
 }
 
 form {
@@ -216,7 +221,7 @@ option {
 }
 
 .login {
-  margin-top: 2.61em;
+  margin-top: .618em;
   float: left;
   margin-left: 4.2223em;
 }
@@ -243,7 +248,7 @@ option {
 		margin: 1.613em 1.613em 2.61em 0;
 		}
 
-	.login h2 {
+  h2 {
 		margin: 0 0 1.613em 0;
 		min-width: 4.2223em;
 	}
